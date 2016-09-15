@@ -1,0 +1,19 @@
+{
+    "name": "spellu/spellu-php-test",
+    "autoload": {
+        "classmap": [
+        	"source-classmap"
+        ],
+        "psr-0": {
+        	"Spellu\\Test\\": "source-psr-0"
+        },
+        "psr-4": {
+        	"Spellu\\Test\\": "source-psr-4"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    },
+    "autoload-dev": {
+    }
+}
