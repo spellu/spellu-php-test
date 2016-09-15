@@ -34,12 +34,18 @@ class ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68
         ),
     );
 
+    public static $classMap = array (
+        'ClassA' => __DIR__ . '/../..' . '/source-classmap/ClassA.php',
+        'Spellu\\Test\\ClassB' => __DIR__ . '/../..' . '/source-classmap/ClassB.php',
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68::$prefixDirsPsr4;
             $loader->prefixesPsr0 = ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68::$classMap;
 
         }, null, ClassLoader::class);
     }
