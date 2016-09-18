@@ -11,7 +11,8 @@
         	"Spellu\\Test\\": "source-psr-4"
         },
         "files": [
-            "helpers.php"
+            "helpers1.php",
+            "helpers2.php"
         ]
     },
     "autoload-dev": {
