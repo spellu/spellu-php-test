@@ -4,41 +4,41 @@ namespace Spellu\Test;
 
 class Class01
 {
-	const publicConstant = 'apple';
+	const CONSTANT_PUBLIC = 'apple';
 
-	public static function staticPublicMethod()
+	public static function methodStaticPublic()
 	{
 	}
 
-	protected static function staticProtectedMethod()
+	protected static function methodStaticProtected()
 	{
 	}
 
-	private static function staticPrivateMethod()
+	private static function methodStaticPrivate()
 	{
 	}
 
-	public function instancePublicMethod()
+	public function methodInstancePublic()
 	{
 	}
 
-	protected function instanceProtectedMethod()
+	protected function methodInstanceProtected()
 	{
 	}
 
-	private function instancePrivateMethod()
+	private function methodInstancePrivate()
 	{
 	}
 
-	public static $staticPublicProperty = '';
+	public static $propertyStaticPublic = '';
 
-	protected static $staticProtectedProperty = '';
+	protected static $propertyStaticProtected = '';
 
-	protected static $staticPrivateProperty = '';
+	private static $propertyStaticPrivate = '';
 
-	public $instancePublicProperty = '';
+	public $propertyInstancePublic = '';
 
-	protected $instanceProtectedProperty = '';
+	protected $propertyInstanceProtected = '';
 
-	protected $instancePrivateProperty = '';
+	private $propertyInstancePrivate = '';
 }
