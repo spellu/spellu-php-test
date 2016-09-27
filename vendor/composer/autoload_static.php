@@ -7,7 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68
 {
     public static $files = array (
-        '92471c495b7f023dc164ec59290394aa' => __DIR__ . '/../..' . '/helpers.php',
+        '777b06278e4d7f04fbe81d52fe352e46' => __DIR__ . '/../..' . '/helpers1.php',
+        '7d2d8b47f5cdac85c614715afa5be50c' => __DIR__ . '/../..' . '/helpers2.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -36,7 +37,13 @@ class ComposerStaticInit16e4e73049a782ac9aa7a6145fefac68
 
     public static $classMap = array (
         'ClassA' => __DIR__ . '/../..' . '/source-classmap/ClassA.php',
+        'ClassGlobal' => __DIR__ . '/../..' . '/source-classmap/Class.php',
+        'InterfaceNamespaced' => __DIR__ . '/../..' . '/source-classmap/Sub/InterfaceNamespaced.php',
         'Spellu\\Test\\ClassB' => __DIR__ . '/../..' . '/source-classmap/ClassB.php',
+        'Spellu\\Test\\ClassNamespaced' => __DIR__ . '/../..' . '/source-classmap/Class.php',
+        'Spellu\\Test\\InterfaceGlobal' => __DIR__ . '/../..' . '/source-classmap/Sub/InterfaceGlobal.php',
+        'Spellu\\Test\\TraitNamespaced' => __DIR__ . '/../..' . '/source-classmap/Sub/Trait.php',
+        'TraitGlobal' => __DIR__ . '/../..' . '/source-classmap/Sub/Trait.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

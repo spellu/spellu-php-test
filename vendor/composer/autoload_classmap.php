@@ -7,5 +7,11 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'ClassA' => $baseDir . '/source-classmap/ClassA.php',
+    'ClassGlobal' => $baseDir . '/source-classmap/Class.php',
+    'InterfaceNamespaced' => $baseDir . '/source-classmap/Sub/InterfaceNamespaced.php',
     'Spellu\\Test\\ClassB' => $baseDir . '/source-classmap/ClassB.php',
+    'Spellu\\Test\\ClassNamespaced' => $baseDir . '/source-classmap/Class.php',
+    'Spellu\\Test\\InterfaceGlobal' => $baseDir . '/source-classmap/Sub/InterfaceGlobal.php',
+    'Spellu\\Test\\TraitNamespaced' => $baseDir . '/source-classmap/Sub/Trait.php',
+    'TraitGlobal' => $baseDir . '/source-classmap/Sub/Trait.php',
 );
