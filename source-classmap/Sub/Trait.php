@@ -1,7 +1,9 @@
 <?php
 
-trait TraitGlobal
-{
+namespace {
+	trait TraitGlobal
+	{
+	}
 }
 
 namespace Spellu\Test {

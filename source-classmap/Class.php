@@ -1,7 +1,9 @@
 <?php
 
-class ClassGlobal
-{
+namespace {
+	class ClassGlobal
+	{
+	}
 }
 
 namespace Spellu\Test {
